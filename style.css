@@ -530,6 +530,16 @@ p {
     line-height: 2rem;  
     font-weight: 500; 
 }
+
+.contact-info a.phone-link {
+    color: black;  
+    text-decoration: none;  
+}
+
+.contact-info a.email-link {
+    color: black;  
+    text-decoration: none;  /
+}
 /*End contact Section */ 
 
 /* Footer */ 
