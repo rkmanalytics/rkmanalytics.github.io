@@ -285,6 +285,11 @@ p {
     margin: 0 auto; 
 }
 
+#services .service-top p {  
+    font-size: 1.8rem;
+    color: black;
+}
+
 #services .service-bottom {  
     display: flex;  
     align-items: center;  
