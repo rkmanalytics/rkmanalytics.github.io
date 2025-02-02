@@ -424,6 +424,26 @@ p {
 #projects .project-item:hover .project-img img {  
     transform: scale(1.1); 
 }
+
+#projects .project-link {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;  
+    border: 2px solid #dd1115; 
+    font-size: 2rem;  
+    text-transform: uppercase; 
+    letter-spacing: 0.1rem;  
+    margin-top: 30px;  
+    transition: 0.3s ease;  
+    transition-property: background-color, color;
+}
+
+#projects .project-link:hover {
+    color: white;  
+    background-color: #dd1115;
+}
+
 /* End Projects section */ 
 
 /* About Section */ 
@@ -452,7 +472,8 @@ p {
 }
 
 #about .col-right p {  
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    font-size: 1.6rem;
 }
 
 #about .col-right .cta {  
